@@ -1,0 +1,174 @@
+
+body,div {
+	
+  font-family: 'luckyiest guy ', sans-serif;
+  font-size: 50px !important;
+  font-weight: 300 !important;
+  
+}
+
+.container
+{
+font-size: 67px;
+  background-color:  #2ab7ca00;
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 15%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transparent: 50%;
+  }
+.box
+{
+padding: 20px;
+  overflow: hidden;
+  
+  }
+
+ .box ul
+ {
+  list-style-type: none;
+  margin-left: 10%;
+  }
+
+ .box li
+ {
+  margin-top: 10px;
+  float: left;
+  padding: 0 20px 0 20px;
+  }
+.current-score-notification
+{
+    color: white;
+}
+
+.btn
+{	margin-right:30%;
+	margin-left:20%;
+	border:0.625rem ;
+	background-color: #2ab7ca;
+	text-align:center;
+	border-radius: 0.6rem ;
+    }
+.score{
+display: flex;
+    color: white;
+     padding: 20px;
+  overflow: hidden;
+  background-color:  #2ab7ca00;
+}
+
+
+
+
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+  align : center;
+  
+}
+
+
+.progress-bar {
+	position: relative;
+	width: 500px;
+	height: 1.5em;
+	background-color: #111;
+	border-radius: 2.5em;
+	color: white;
+}
+
+
+.progress-bar::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: .0.4em;
+	top: .1em;
+	bottom: .1em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(100% - 1em);
+	background-color: #069;
+	border-radius: 1em;
+	padding: 0.5em;
+}
+.equation{
+	color: white;
+	display: flex;
+	margin-left: 30%;
+	
+}
+
+
+.equation h1{
+	color: white;
+	display: flex;
+	font-size: 100px;
+	padding: 10px;
+}
+
+.option
+{	
+	margin-top:5px;
+	color: white;
+	border:0.5rem ;
+	display: grid;
+    grid-template-row: 102% ;
+}
+
+.option h1
+{	
+	 
+	margin-right:30%;
+	margin-left:20%;
+	border:0.625rem ;
+	background-color: #2ab7ca;
+	text-align:center;
+
+
+}
+
+#option1{
+  
+	margin-top: 10px;
+  
+  /*width: 100%;*/
+	background-color: #2ab7ca;
+	color: white;
+	
+
+  transition: 1s;
+}
+#option1:hover{
+ color:  #2ab7ca;
+  background: white;
+
+}
+#option2{
+ background-color: #2ab7ca;
+	color: white;
+	
+    /* width: 100%;*/
+  transition: 1s;
+}
+#option2:hover{
+	background: white;
+  color: #2AB7CA;
+  
+}
+#option3{
+  background-color: #2ab7ca;
+	color: white;
+	
+
+  transition: 1s;
+}
+#option3:hover{
+  color:  #2ab7ca;
+  background: white;
+}
+

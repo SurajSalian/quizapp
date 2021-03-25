@@ -25,7 +25,7 @@ function random_equation(){
   var val2 = Math.floor(Math.random() * 10);
   var val3 = Math.floor(Math.random() * 10);
   var dummyAnswer1 = Math.floor(Math.random() * 8);
-  var dummyAnswer2 = Math.floor(Math.random() * 18);
+  var dummyAnswer2 = Math.floor(Math.random() * 8);
 
   var random = [];
   answer = eval(val1 + val2 + val3);
